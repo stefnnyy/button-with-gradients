@@ -1,0 +1,42 @@
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Geist", sans-serif;
+    background-color: #F2F4F7;
+  }
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+} 
+
+.button-wrapper{
+background: linear-gradient(135deg, #FF9D3F, #F46772, #AF33E4, #2F70E4);
+padding: 2px;
+border-radius: 32px;
+}
+
+
+.button{
+  border: none;
+  background-color: white;
+  padding: 1em 1.5em;
+  color: #667085;
+  font-family: inherit;
+  border-radius: 32px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.button-wrapper:hover{
+background: linear-gradient(230deg, #FF9D3F, #F46772, #AF33E4, #2F70E4);
+}
+
+.button-wrapper:hover .button{
+  color: #101828;
+  padding: 1.1em 1.6em;
+  font-weight: 600;
+} 
